@@ -1,3 +1,9 @@
+### Chat Application
+
+![Preview](https://github.com/aviraltandon21/flash-chat-flutter/blob/master/preview/preview.gif?raw=true)
+
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
