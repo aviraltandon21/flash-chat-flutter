@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "161595668034",
+    "firebase_url": "https://flash-chat-5be66.firebaseio.com",
+    "project_id": "flash-chat-5be66",
+    "storage_bucket": "flash-chat-5be66.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:161595668034:android:f2c9893d7c578684441fdb",
+        "android_client_info": {
+          "package_name": "co.AviralTandon.flash_chat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "161595668034-i0vs636ut69b0m149i7ccr1iqts897on.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAksXRjUJwK50QTMNNEWvfsfU9KaazneLc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "161595668034-i0vs636ut69b0m149i7ccr1iqts897on.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
