@@ -1,5 +1,6 @@
 import 'package:flash_chat/constants.dart';
 import 'package:flash_chat/screens/chat_screen.dart';
+import 'package:flash_chat/screens/forgot_password.dart';
 import 'package:flutter/material.dart';
 import 'package:flash_chat/components/rounded_button.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -33,11 +34,25 @@ class _LoginScreenState extends State<LoginScreen> {
             mainAxisAlignment: MainAxisAlignment.center,
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: <Widget>[
+              Center(
+                child: Text(
+                  'LogIn',
+                  style: TextStyle(
+                      fontFamily: 'Pacifico',
+                      fontSize: 50.0,
+                      color: Color.fromARGB(255, 13, 79, 139),
+                      fontWeight: FontWeight.bold
+                  ),
+                ),
+              ),
+              SizedBox(
+                height: 20.0,
+              ),
               Flexible(
                 child: Hero(
                   tag: 'logo',
                   child: Container(
-                    height: 200.0,
+                    height: 150.0,
                     child: Image.asset('images/logo.png'),
                   ),
                 ),
@@ -91,6 +106,19 @@ class _LoginScreenState extends State<LoginScreen> {
 
                 },
               ),
+              FlatButton(
+                onPressed: () {
+                  Navigator.pushNamed(context, ForgotPassword.id);
+                },
+                child: Text(
+                  'Forgot Password ?',
+                  style: TextStyle(
+                    color: Colors.black26,
+                    fontSize: 13.0,
+                    fontWeight: FontWeight.w800
+                  ),
+                ),
+              )
             ],
           ),
         ),
