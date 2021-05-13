@@ -1,4 +1,4 @@
-### Chat Application
+### Chat Application.
 
 ![Preview](https://github.com/aviraltandon21/flash-chat-flutter/blob/master/preview/preview.gif?raw=true)
 ![Preview](https://github.com/aviraltandon21/flash-chat-flutter/blob/master/preview/one.jpeg?raw=true)
